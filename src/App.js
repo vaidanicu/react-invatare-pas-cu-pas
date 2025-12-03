@@ -1,7 +1,9 @@
+import Greeting from "./components/Greeting";
+
 function App() {
   return (
     <div>
-      <h1>Salut Lume! Am inceput sa invat React!</h1>
+      <Greeting />
     </div>
   );
 }
