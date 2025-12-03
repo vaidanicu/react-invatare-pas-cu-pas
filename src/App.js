@@ -3,7 +3,9 @@ import Greeting from "./components/Greeting";
 function App() {
   return (
     <div>
-      <Greeting />
+      <Greeting name="Aurel" />
+      <Greeting name="Vasile" />
+      <Greeting name="Nicu" />
     </div>
   );
 }
